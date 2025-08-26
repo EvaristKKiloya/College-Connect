@@ -38,7 +38,7 @@ class SplashActivity : ComponentActivity() {
                         startActivity(Intent(this, OnboardingActivity::class.java))
                     }
                     !loggedIn -> {
-                        startActivity(Intent(this, AuthActivity::class.java))
+                        startActivity(Intent(this, LoginActivity::class.java))
                     }
                     else -> {
                         startActivity(Intent(this, MainActivity::class.java))

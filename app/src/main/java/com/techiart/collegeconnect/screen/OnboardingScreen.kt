@@ -39,7 +39,7 @@ class OnboardingActivity : ComponentActivity() {
                     }
 
                     // Navigate to AuthActivity
-                    startActivity(Intent(this, AuthActivity::class.java))
+                    startActivity(Intent(this, LoginActivity::class.java))
                     finish()
                 }
             )
